@@ -25,7 +25,7 @@ const Header = () => {
           About
         </Navbar.Link>
         <Navbar.Link as={Link} to='/profile'>Profile</Navbar.Link>
-        <Navbar.Link as={Link} to='/signin'>SignIn</Navbar.Link>
+        <Navbar.Link as={Link} to='/sign-in'>SignIn</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
 
