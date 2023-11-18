@@ -22,7 +22,6 @@ const Header = () => {
       <Navbar.Collapse>
         <Navbar.Link as={Link} to='/' active>Home</Navbar.Link>
         <Navbar.Link as={Link} to='/about'>About</Navbar.Link>
-        <Navbar.Link as={Link} to='/profile'>Profile</Navbar.Link>
         <Navbar.Link as={Link} to='/profile'>
           {currentUser ? (
             <img className='rounded-full w-7 h-7 object-cover' src={currentUser.avatar} alt="profile" />
