@@ -26,6 +26,7 @@ const OAuth = () => {
           image: result.user.photoURL
         })
       }) 
+       
       const data = await res.json();
       dispatch(signInSuccess(data)) 
       navigate('/') 
